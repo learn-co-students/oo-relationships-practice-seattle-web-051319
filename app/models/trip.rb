@@ -22,6 +22,4 @@ attr_reader :listing, :guest
     self.guest
   end
 
-
-
 end

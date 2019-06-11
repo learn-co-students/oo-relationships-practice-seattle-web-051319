@@ -32,7 +32,6 @@ attr_reader :name
   def self.pro_traveller
     self.all.select do |guest|
       guest.trips.count > 1
-      binding.pry
     end
   end
 
